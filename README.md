@@ -1,14 +1,6 @@
 # \# 🌱 Spring-Core-Practice
 
-# 
-
 # This is a simple \*\*Spring Core practice project\*\* that demonstrates the use of \*\*XML-based configuration\*\*, \*\*setter injection\*\*, and the \*\*FileSystemXmlApplicationContext\*\* in the Spring Framework.
-
-# 
-
-# ---
-
-# 
 
 # \## 📌 Project Overview
 
@@ -20,11 +12,6 @@
 
 # \- Demonstrates \*\*Dependency Injection (DI)\*\* using \*\*Spring Core\*\*.
 
-# 
-
-# ---
-
-# 
 
 # \## ⚙️ Technologies Used
 
@@ -34,11 +21,6 @@
 
 # \- XML-based configuration  
 
-# 
-
-# ---
-
-# 
 
 # \## 🔑 Key Features
 
@@ -48,7 +30,5 @@
 
 # \- \*\*Has-A Relationship\*\*: `WeekendMessageGenerator` has a dependency on `LocalDate`.  
 
-# 
 
-# 
 
