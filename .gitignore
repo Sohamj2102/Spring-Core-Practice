@@ -1,0 +1,16 @@
+# Eclipse files
+.classpath
+.project
+.settings/
+
+# IntelliJ IDEA files
+*.iml
+.idea/
+out/
+
+# Build directories
+bin/
+target/
+
+# Logs
+*.log
