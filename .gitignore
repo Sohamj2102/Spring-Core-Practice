@@ -14,3 +14,7 @@ target/
 
 # Logs
 *.log
+
+
+# Ignore specific file
+Weekend-Planner/ReportCardService.java
