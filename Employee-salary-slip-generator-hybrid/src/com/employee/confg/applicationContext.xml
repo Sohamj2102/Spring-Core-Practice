@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="
+           http://www.springframework.org/schema/beans
+           https://www.springframework.org/schema/beans/spring-beans.xsd
+           http://www.springframework.org/schema/context
+           https://www.springframework.org/schema/context/spring-context.xsd">
+           <!--enabling component scanning  -->
+	<context:component-scan
+		base-package="com.employee.sbeans" />
+
+	<bean id="employee" class="com.employee.sbeans.Employee">
+		<constructor-arg name="id" value="101" />
+		<constructor-arg name="name" value="John" />
+		<constructor-arg name="basicSalary" value="40000" />
+		<constructor-arg name="hra" value="5000" />
+		<constructor-arg name="da" value="5000" />
+		<constructor-arg name="taxPercentage" value="10" />
+	</bean>
+
+</beans>
